@@ -7,6 +7,10 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    container : {
+center : true,
+padding : '16px'
+    },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -18,7 +22,10 @@ const config: Config = {
         secondary : "#22d3ee",
         abu : "#94a3b8",
         dark : "#0f172a"
-      }
+      },
+      screens : {
+'2xl' : '1320px'
+      },
     },
   },
   plugins: [],

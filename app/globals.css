@@ -6,9 +6,30 @@
   --font-poppins: 'Poppins', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--font-poppins);
   background-color : #121212;
   color : white;
 }
 
+.navbar-fixed {
+  @apply fixed z-[9999] bg-transparent bg-opacity-60 backdrop-blur-lg shadow-lg 
+}
+
+.hamburger-menu {
+  @apply block w-[33px] h-[3px] bg-primary my-2
+}
+
+.hamburger-active > span:nth-child(1) {
+ @apply rotate-45
+}
+.hamburger-active > span:nth-child(2) {
+ @apply scale-0
+}
+.hamburger-active > span:nth-child(3) {
+ @apply -rotate-45
+}

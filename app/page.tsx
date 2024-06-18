@@ -1,17 +1,36 @@
 'use client';
+import { About } from '@/components/about';
 import { Hero } from '@/components/hero';
-import Image from 'next/image';
+import {Navbar} from '@/components/navbar'
+import { Project } from '@/components/projects';
+import { Skilss } from '@/components/skills';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      // disable : "phone",
+      easing: 'ease-out-cubic',
+    });
+  });
+
   return (
     <div>
-      <div className="pt-32 pb-16 md:pt-52 md:pb-32 relative max-w-[82rem] min-h-screen px-4 mx-auto sm:px-6 ">
         {/* Navbar section */}
+        <Navbar/>
+      <div id='home' className="pt-10 pb-10 md:pt-36 md:pb-32 relative max-w-full min-h-screen mx-auto">
+      
         {/* Hero section */}
-        <Hero />
+        <Hero id='home'/>
         {/* about section */}
+        <About />
         {/* skilss section */}
+        <Skilss/>
         {/*  Project Sections*/}
+        <Project/>
         {/* contact section */}
       </div>
       {/* footer */}
