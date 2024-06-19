@@ -13,7 +13,7 @@ export const Hero : React.FC<HeroProps>= ({id}) => {
         <div className="flex flex-wrap">  
           <div className="w-full lg:w-[65%] self-center px-4">
             <h1 className="text-lg mb-3 md:text-3xl" data-aos='fade-down' data-aos-delay='200' >
-              Hello I'M <span>Muhammad Hafidz</span>
+              Hello I'M, <span>Muhammad Hafidz</span>
             </h1>
             <h2 className="text-xl font-extrabold mb-10 md:text-4xl lg:text-7xl lg:mb-12 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-600 to-cyan-400" data-aos="fade-right" >
               Junior <span className="font-bold lg:block text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-600 to-cyan-400" data-aos="fade-right">Web Developer</span>

@@ -13,7 +13,7 @@ export const About = () => {
                         <div className="w-full px-4 lg:w-1/2"  data-aos="fade-up">
                             <h1 className="font-bold text-2xl mb-3 lg:text-5xl">About <span className="text-primary">Me</span></h1>
                             <h2 className="font-semibold text-lg lg:text-2xl mb-3">My Name <span className="text-primary">Muhammad Hafidz </span></h2>
-                            <p className="max-w-xl leading-relaxed tracking-[3px] text-md mb-3 lg:text-lg">Hello everyone, my name is Muhammad Hafidz Furqon, I was born in Bogor and this is a glimpse of me, I am a student majoring in software and game development and I have an interest in website development also web design, I am committed to working and can develop experience in IT field.
+                            <p className="max-w-xl leading-relaxed tracking-[3px] text-md mb-3 lg:text-lg">Hello everyone, my name is Muhammad Hafidz Furqon, I was born in Bogor and this is a glimpse of me, I am a student majoring in software and game development and I have create some website development also web design, I am committed to working and can develop experience in IT field.
                             </p>
                             <button className="border px-5 py-2 hover:bg-primary transition duration-300 ease-in-out text-lg">Download CV</button>
                         </div>
