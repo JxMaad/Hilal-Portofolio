@@ -15,6 +15,8 @@ export const Navbar = () => {
       }
     };
 
+    
+
     const hamburger = document.getElementById('hamburger-menu');
     const navMenu = document.getElementById('nav-menu');
 
@@ -42,14 +44,14 @@ export const Navbar = () => {
               </a>
             </div>
             <div className=" flex px-4 items-center">
-              <button className="block absolute right-5 lg:hidden" id="hamburger-menu" type="button">
+              <button className="block absolute right-5 lg:hidden " id="hamburger-menu" type="button">
                 <span className="hamburger-menu rounded transition duration-300 ease-in-out origin-top-left"></span>
                 <span className="hamburger-menu rounded transition duration-300 ease-in-out"></span>
                 <span className="hamburger-menu rounded transition duration-300 ease-in-out origin-bottom-left"></span>
               </button>
-              <nav id="nav-menu" className="hidden absolute py-5 bg-transparent backdrop-blur-lg border shadow-lg top-full rounded-sm max-w-full w-full right-1 lg:block lg:static lg:bg-transparent lg:max-w-full lg:border-none lg:shadow-none lg:rounded-none lg:backdrop-blur-0">
-                <ul className="block font-bold lg:flex">
-                  <li className="group my-3">
+              <nav id="nav-menu" className="hidden absolute bg-transparent backdrop-blur-lg border shadow-lg top-full rounded-sm max-w-full w-full right-1 lg:block lg:static lg:bg-transparent lg:max-w-full lg:border-none lg:shadow-none lg:rounded-none lg:backdrop-blur-0 ">
+                <ul className="block font-bold lg:flex bg-slate-800 p-3 lg:bg-transparent lg:p-0">
+                  <li className="group lg:my-3">
                     <a href="#home" className=" mx-8 rounded group-hover:text-primary text-md ">
                       Home
                     </a>
@@ -69,7 +71,7 @@ export const Navbar = () => {
                       Project
                     </a>
                   </li>
-                  <li className="group my-3">
+                  <li className="group lg:my-3">
                     <a href="#contact" className="mx-8 rounded group-hover:text-primary text-md ">
                       Contact
                     </a>

@@ -1,5 +1,7 @@
 'use client';
 import { About } from '@/components/about';
+import { Contact } from '@/components/contact';
+import { Footer } from '@/components/footer';
 import { Hero } from '@/components/hero';
 import {Navbar} from '@/components/navbar'
 import { Project } from '@/components/projects';
@@ -26,17 +28,16 @@ export default function Home() {
         {/* Hero section */}
         <Hero id='home'/>
         {/* about section */}
-        <About />
+        <About id='about'/>
         {/* skilss section */}
         <Skilss/>
         {/*  Project Sections*/}
         <Project/>
         {/* contact section */}
+        <Contact/>
       </div>
-      {/* footer */}
+     <Footer/>
     </div>
   );
 }
 
-{
-}

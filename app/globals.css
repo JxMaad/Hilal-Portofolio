@@ -17,15 +17,15 @@ body {
 }
 
 .navbar-fixed {
-  @apply fixed z-[9999] bg-transparent bg-opacity-60 backdrop-blur-lg shadow-lg 
+  @apply fixed z-[9999] bg-opacity-60 backdrop-blur-lg shadow-lg
 }
 
 .hamburger-menu {
-  @apply block w-[33px] h-[3px] bg-primary my-2
+  @apply block w-[33px] h-[3px] bg-primary my-2 
 }
 
 .hamburger-active > span:nth-child(1) {
- @apply rotate-45
+ @apply rotate-45 
 }
 .hamburger-active > span:nth-child(2) {
  @apply scale-0

@@ -21,10 +21,11 @@ padding : '16px'
         primary : "#06b6d4",
         secondary : "#22d3ee",
         abu : "#94a3b8",
-        dark : "#0f172a"
+        dark : "#0f172a",
+        footer : "#1f252d"
       },
       screens : {
-'2xl' : '1320px'
+'2xl' : '1320px',
       },
     },
   },

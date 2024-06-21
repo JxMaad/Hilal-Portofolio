@@ -1,7 +1,7 @@
 export const Skilss = () => {
   return (
     <div>
-      <section id="skils" className="pt-20 pb-32">
+      <section id="skils" className="pt-36 pb-36">
         <h1 className="text-center text-2xl font-bold lg:text-4xl">
           My <span className="text-primary">Skills</span>
         </h1>
@@ -28,7 +28,7 @@ export const Skilss = () => {
                 </div>
                 <h1 className="font-extrabold text-3xl">Front <span className="text-primary">end</span></h1>
                 <h2 className="max-w-xl text-md font-semibold">
-                I usually use several languages ​​for the front-end to create intuitive and eye-catching designs for web, such as CSS, React, Vue, Next, Tailwind and Javascript</h2>
+                I usually use several languages ​​for the front-end to create intuitive and eye-catching designs for web, such as CSS, React, Vue, Next, Tailwind and also javasript.</h2>
               </div>
             </div>
             <div className="w-full px-4 lg:w-1/3" data-aos='fade-up'>
@@ -43,7 +43,7 @@ export const Skilss = () => {
                 </div>
                 <h1 className="font-extrabold text-3xl">Back <span className="text-primary">end</span></h1>
                 <h2 className="max-w-xl text-md font-semibold">
-               For the backend i usually create a restful api using several languages ​​such as laravel and node js, then I can consume it for my front end.</h2>
+               For the backend i usually create a restful api using several languages ​​such as laravel and node js, then I can consume it for my front end, so that i can create a web application that can handle on back end side.</h2>
               </div>
             </div>
             <div className="w-full px-4 lg:w-1/3" data-aos='fade-up'>
@@ -54,7 +54,7 @@ export const Skilss = () => {
                   </a>
                 </div>
                 <h1 className="font-extrabold text-3xl">Web <span className="text-primary"> Design</span></h1>
-                <h2 className="max-w-xl text-md font-semibold">For web design, I like using Figma because it is very easy to use and the results are quite satisfying so I usually use it. For web design needs</h2>
+                <h2 className="max-w-xl text-md font-semibold">For web design, I like using Figma because it is very easy to use and the results are quite satisfying so I usually use it. For web design needs. And usually i practice my design on figma</h2>
               </div>
             </div>
           </div>

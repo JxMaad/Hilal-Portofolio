@@ -1,15 +1,20 @@
 import { FaPerson } from "react-icons/fa6";
 import { LuGamepad2 } from "react-icons/lu";
 import { CiCalendarDate } from "react-icons/ci";
-export const About = () => {
-    return (
-        <div>
-            
-           <div id='about' className="relative -z-10"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1f252d" fillOpacity="1" d="M0,64L60,64C120,64,240,64,360,74.7C480,85,600,107,720,112C840,117,960,107,1080,96C1200,85,1320,75,1380,69.3L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg></div>
+import React from "react";
 
-           <section className="pt-10 pb-20 bg-[#1f252d]">
-               <div className="container">
-                <div className="flex flex-wrap md:flex-row-reverse justify-center">
+interface AboutProps {
+    id : string
+}
+export const About : React.FC<AboutProps> = ({id}) => {
+    return (
+        <div >
+            
+           <div   className="relative -z-10"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1f252d" fillOpacity="1" d="M0,64L60,64C120,64,240,64,360,74.7C480,85,600,107,720,112C840,117,960,107,1080,96C1200,85,1320,75,1380,69.3L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg></div>
+
+           <section id={id} className="pt-10 pb-20 bg-[#1f252d]"  >
+               <div className="container" >
+                <div className="flex flex-wrap md:flex-row-reverse justify-center" >
                         <div className="w-full px-4 lg:w-1/2"  data-aos="fade-up">
                             <h1 className="font-bold text-2xl mb-3 lg:text-5xl">About <span className="text-primary">Me</span></h1>
                             <h2 className="font-semibold text-lg lg:text-2xl mb-3">My Name <span className="text-primary">Muhammad Hafidz </span></h2>
