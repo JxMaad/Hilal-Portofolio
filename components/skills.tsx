@@ -11,7 +11,7 @@ export const Skilss = () => {
               <div className="mt-16 border p-5 rounded-md border-primary hover:scale-110 transition duration-500 ease-in-out hover:shadow-primary ">
                 <div className="flex gap-x-3">
                   <a href="#" className="py-4 max-w-10">
-                    <img src="./React-icon.svg.png" alt="react" />
+                    <img src="./React-icon.svg.png" alt="reac" />
                   </a>
                   <a href="#" className="py-3 max-w-10">
                     <img src="./tailwind.svg" alt="react" />
