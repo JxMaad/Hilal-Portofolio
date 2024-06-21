@@ -14,7 +14,7 @@ export const Skilss = () => {
                     <img src="./React-icon.svg.png" alt="reac" />
                   </a>
                   <a href="#" className="py-3 max-w-10">
-                    <img src="./tailwind.svg" alt="reac" />
+                    <img src="./tailwind.svg" alt="rea" />
                   </a>
                   <a href="#" className="py-4 max-w-10">
                     <img src="./Vue.js_Logo_2.svg.png" alt="react" />
