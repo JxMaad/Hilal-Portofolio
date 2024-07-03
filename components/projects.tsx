@@ -151,7 +151,7 @@ export const Project = () => {
             </div>
             <div className="mb-12 lg:w-1/3 border border-primary shadow-primary rounded-md shadow" data-aos="fade-up" data-aos-duration="1000">
               <div className="rounded-md overflow-hidden ">
-                <img src="./Slicing-Design.png" className="h-full" alt="foto-kelas" width="w-full" />
+                <img src="./Slicing-design.png" className="h-full" alt="foto-kelas" width="w-full" />
               </div>
               <h3 className="font-bold mb-3 mt-5 text-2xl px-2">Marketing Website</h3>
               <p className="font-extralight leading-relaxed tracking-[2px] px-2">i built this as a practice for me when i learned  html and css and i finally made this website.</p>

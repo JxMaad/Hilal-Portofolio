@@ -12,7 +12,21 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: 'Muhammad Hafidz Portofolio',
   description: 'Hafidz Portofolio build by next js',
+  icons : {
+    icon : [
+   "./favicon.ico?v=4"
+    ],
+    apple : [
+   "./apple-touch-icon.png?v=4"
+    ],
+    shortcut : [
+      '../public/apple-touch-icon.png'
+    ]
+   },
+   manifest : '/site.webmanifest'
 };
+
+
 
 export default function RootLayout({
   children,
