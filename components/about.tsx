@@ -26,7 +26,7 @@ export const About : React.FC<AboutProps> = ({id}) => {
                         <div className="absolute max-w-full px-2 bg-primary shadow left-2 z-10 top-2 rounded-md flex h-7 items-center justify-center font-medium" data-aos="fade-up"><CiCalendarDate  className="w-5"/>18 Januari 2007</div>
                         <div className="absolute w-[90px] bg-primary shadow -right-3 z-10 top-10 rounded-md flex h-7 items-center justify-center font-medium lg:right-20" data-aos="fade-up"><FaPerson className="w-5"/>ENFJ</div>
                         <div className="absolute w-[90px] bg-primary shadow left-0 z-10 -bottom-0 rounded-md flex h-7 items-center justify-center font-medium text-md px-2" data-aos="fade-up"><LuGamepad2  className="w-5"/>Futsal</div>
-                        <img src="/hapis-2.jpg" alt="image" className='w-[400px] relative top-0 rounded-md lg:w-[500px]' data-aos='flip-left'/>
+                        <img src="./hapis-2.jpg" alt="image" className='w-[400px] relative top-0 rounded-md lg:w-[500px]' data-aos='flip-left'/>
                        </div>
                 </div>
                </div>

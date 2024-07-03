@@ -97,10 +97,10 @@ export const Project = () => {
             </div>
             <div className="mb-12 lg:w-1/3 border border-primary shadow-primary rounded-md shadow" data-aos="fade-up" data-aos-duration="1000">
               <div className="rounded-md overflow-hidden ">
-                <img src="./news.png" className="h-full" alt="foto-kelas" width="w-full" />
+                <img src="./newss.png" className="xl:h-[31vh] md:h-full" alt="foto-kelas" width="w-full" />
               </div>
               <h3 className="font-bold mb-3 mt-5 text-2xl px-2">List worldwide news </h3>
-              <p className="font-extralight leading-relaxed tracking-[2px] px-2">My First Commercial Design for one of the universities in the city of Bogor and really helped improve my design skills, because I learned from the project.</p>
+              <p className="font-extralight leading-relaxed tracking-[2px] px-2">This website is Api's consumption of a News Api website which provides all the news in the world</p>
               <div className="flex gap-x-2 px-2">
                 <div className="py-4 max-w-16 grayscale hover:grayscale-0 transition duration-300 ease-in-out">
                   <img src="./React-icon.svg.png" alt="react" />
@@ -151,17 +151,17 @@ export const Project = () => {
             </div>
             <div className="mb-12 lg:w-1/3 border border-primary shadow-primary rounded-md shadow" data-aos="fade-up" data-aos-duration="1000">
               <div className="rounded-md overflow-hidden ">
-                <img src="./UIKA-3.png" className="h-full" alt="foto-kelas" width="w-full" />
+                <img src="./Slicing-Design.png" className="h-full" alt="foto-kelas" width="w-full" />
               </div>
-              <h3 className="font-bold mb-3 mt-5 text-2xl px-2">University Web Design</h3>
-              <p className="font-extralight leading-relaxed tracking-[2px] px-2">My First Commercial Design for one of the universities in the city of Bogor and really helped improve my design skills, because I learned from the project.</p>
+              <h3 className="font-bold mb-3 mt-5 text-2xl px-2">Marketing Website</h3>
+              <p className="font-extralight leading-relaxed tracking-[2px] px-2">i built this as a practice for me when i learned  html and css and i finally made this website.</p>
               <div className="flex gap-x-2 px-2">
                 <div className="py-4 max-w-16 grayscale hover:grayscale-0 transition duration-300 ease-in-out px-3">
                   <img src="./1667px-Figma-logo.svg.png" alt="react" />
                 </div>
               </div>
               <div className="my-4 mx-3 mb-7">
-                <a href="https://hafidz-movie-list.vercel.app/" target="_blank" className="px-7 py-3 bg-primary font-medium text-lg rounded-md hover:shadow-primary hover:shadow-lg">
+                <a href="https://hapidzgit.github.io/Slicing-Design/" target="_blank" className="px-7 py-3 bg-primary font-medium text-lg rounded-md hover:shadow-primary hover:shadow-lg">
                   Lihat
                 </a>
               </div>
