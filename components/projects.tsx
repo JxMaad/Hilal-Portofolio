@@ -6,7 +6,7 @@ export const Project = () => {
           <div className="w-full px-4 mb-16">
             <div className="text-center font-semibold">
               <h2 className="text-2xl mb-5 md:text-3xl lg:text-5xl">
-                Projects i've <span className="text-primary">Created</span>
+                Projects i&apos;ve <span className="text-primary">Created</span>
               </h2>
               <p className="font-medium px-4 md:text-xl lg:text-2xl">Some of the projects I have made to increase my skills</p>
             </div>
@@ -100,7 +100,7 @@ export const Project = () => {
                 <img src="./newss.png" className="xl:h-[31vh] md:h-full" alt="foto-kelas" width="w-full" />
               </div>
               <h3 className="font-bold mb-3 mt-5 text-2xl px-2">List worldwide news </h3>
-              <p className="font-extralight leading-relaxed tracking-[2px] px-2">This website is Api's consumption of a News Api website which provides all the news in the world</p>
+              <p className="font-extralight leading-relaxed tracking-[2px] px-2">This website is Api&apos;s consumption of a News Api website which provides all the news in the world</p>
               <div className="flex gap-x-2 px-2">
                 <div className="py-4 max-w-16 grayscale hover:grayscale-0 transition duration-300 ease-in-out">
                   <img src="./React-icon.svg.png" alt="react" />
