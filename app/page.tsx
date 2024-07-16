@@ -5,7 +5,7 @@ import { Footer } from '@/components/footer';
 import { Hero } from '@/components/hero';
 import {Navbar} from '@/components/navbar'
 import { Project } from '@/components/projects';
-import { Skilss } from '@/components/skills';
+import { Skills } from '@/components/skills';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
@@ -29,8 +29,8 @@ export default function Home() {
         <Hero id='home'/>
         {/* about section */}
         <About id='about'/>
-        {/* skilss section */}
-        <Skilss/>
+        {/* skills section */}
+        <Skills/>
         {/*  Project Sections*/}
         <Project/>
         {/* contact section */}

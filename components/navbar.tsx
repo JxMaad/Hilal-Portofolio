@@ -38,9 +38,9 @@ export const Navbar = () => {
       <header className="absolute bg-transparent flex items-center top-0 w-full z-10">
         <div className="container">
           <div className="flex items-center justify-between relative">
-            <div className="px-4">
-              <a href="#home" className="text-primary lg:text-2xl md:text-xl font-semibold pt-7 text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 via-blue-600 to-cyan-400 text-lg block py-6">
-                Muhammad Hafidz
+          <div className="px-4">
+              <a href="#home" className="text-primary lg:text-2xl md:text-xl font-semibold pt-7 text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-400 to-blue-400 text-lg block py-6">
+                <img src="./Logo_Hilal-removebg-preview.png" alt="Hilal Ahmad Mujaddid" className="w-16 h-16 inline-block" /> Maad
               </a>
             </div>
             <div className=" flex px-4 items-center">
@@ -52,27 +52,27 @@ export const Navbar = () => {
               <nav id="nav-menu" className="hidden absolute bg-transparent backdrop-blur-lg border shadow-lg top-full rounded-sm max-w-full w-full right-1 lg:block lg:static lg:bg-transparent lg:max-w-full lg:border-none lg:shadow-none lg:rounded-none lg:backdrop-blur-0 ">
                 <ul className="block font-bold lg:flex bg-slate-800 p-3 lg:bg-transparent lg:p-0">
                   <li className="group lg:my-3">
-                    <a href="#home" className=" mx-8 rounded group-hover:text-primary text-md ">
+                    <a href="#home" className=" mx-8 rounded group-hover:text-green-400 text-md ">
                       Home
                     </a>
                   </li>
                   <li className="group my-3">
-                    <a href="#about" className=" mx-8 rounded group-hover:text-primary text-md ">
+                    <a href="#about" className=" mx-8 rounded group-hover:text-green-400 text-md ">
                       About
                     </a>
                   </li>
                   <li className="group my-3">
-                    <a href="#skils" className="mx-8 rounded group-hover:text-primary text-md ">
+                    <a href="#skills" className="mx-8 rounded group-hover:text-green-400 text-md ">
                       Skills
                     </a>
                   </li>
                   <li className="group my-3">
-                    <a href="#projects" className="mx-8 rounded group-hover:text-primary text-md ">
+                    <a href="#projects" className="mx-8 rounded group-hover:text-green-400 text-md ">
                       Project
                     </a>
                   </li>
                   <li className="group lg:my-3">
-                    <a href="#contact" className="mx-8 rounded group-hover:text-primary text-md ">
+                    <a href="#contact" className="mx-8 rounded group-hover:text-green-400 text-md ">
                       Contact
                     </a>
                   </li>

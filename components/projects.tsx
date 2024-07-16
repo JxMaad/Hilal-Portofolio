@@ -1,12 +1,12 @@
 export const Project = () => {
   return (
     <div>
-      <section id="projects" className="pt-24 pb-20 bg-[#1f252d]">
+      <section id="projects" className="pt-32 pb-20 bg-[#1f252d]">
         <div className="container">
           <div className="w-full px-4 mb-16">
             <div className="text-center font-semibold">
               <h2 className="text-2xl mb-5 md:text-3xl lg:text-5xl">
-                Projects i&apos;ve <span className="text-primary">Created</span>
+                Projects i&apos;ve <span className="text-green-400">Created</span>
               </h2>
               <p className="font-medium px-4 md:text-xl lg:text-2xl">Some of the projects I have made to increase my skills</p>
             </div>

@@ -10,14 +10,14 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'Muhammad Hafidz Portofolio',
-  description: 'Hafidz Portofolio build by next js',
+  title: 'Hilal Ahmad Mujaddid - Portofolio',
+  description: 'Hilal Portofolio build by next js',
   icons : {
     icon : [
-   "./favicon.ico?v=4"
+   "./favicon.ico"
     ],
     apple : [
-   "./apple-touch-icon.png?v=4"
+   "./apple-touch-icon.png"
     ],
     shortcut : [
       '../public/apple-touch-icon.png'

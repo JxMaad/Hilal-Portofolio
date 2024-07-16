@@ -10,9 +10,9 @@ export const Contact = () => {
 
   const infos: info[] = [
     {
-      email: 'hpsgaming212@gmail.com',
-      no_telp: '(+62)-895-1800-1464',
-      addres: 'Kab.Bogor Kp. Ciherang Kidul RT 02/02',
+      email: 'lalxmilo0607@gmail.com',
+      no_telp: '(+62)-895-4045-0060-2',
+      addres: 'Pondok Kencana Permai, Jln. Safir Ujung no 3 Rt 06 Rw 13 , Kab. Bogor',
     },
   ];
   return (
@@ -20,28 +20,28 @@ export const Contact = () => {
       <div className="container">
         <div className="w-full px-4">
           <div className="text-center font-bold text-3xl mb-5 md:text-5xl">
-            Contact <span className="text-primary">Me</span>
+            Contact <span className="text-green-400">Me</span>
           </div>
           <p className="text-center max-w-lg mx-auto  md:text-xl">Feel Free To Contact Me if you want me to join with your project</p>
         </div>
         <div className="flex flex-wrap items-center justify-center" data-aos="fade-up"  >
           <div className="w-full px-4 lg:w-1/2">
             <div className="max-w-md mx-auto">
-              <form className="mt-10">
+              <form className="mt-10" action={"https://formspree.io/f/mvgpgvrg"} method='POST'>
                 <div className="w-full mb-8 px-4">
-                  <label htmlFor="name" className="font-bold text-base text-primary">
+                  <label htmlFor="name" className="font-bold text-base text-green-300">
                     Name
                   </label>
                   <input
                     type="text"
                     name="name"
-                    className="w-full border-b-2 bg-transparent border-gray-300 p-2 px-0 border-r-0 text-base text-white mt-1 focus:ring-primary appearance-none focus:outline-none focus:ring-0 focus:border-primary peer placeholder:text-sm"
+                    className="w-full border-b-2 bg-transparent border-gray-300 p-2 px-0 border-r-0 text-base text-white mt-1 focus:ring-green-300 appearance-none focus:outline-none focus:ring-0 focus:border-green-300 peer placeholder:text-sm"
                     placeholder="Field Your Name"
                     id="name"
                   />
                 </div>
                 <div className="w-full mb-8 px-4">
-                  <label htmlFor="email" className="font-bold text-base text-primary">
+                  <label htmlFor="email" className="font-bold text-base text-green-300">
                     Email
                   </label>
                   <input
@@ -49,24 +49,24 @@ export const Contact = () => {
                     type="email"
                     name="email"
                     required
-                    className="w-full border-b-2 bg-transparent border-gray-300 p-2 px-0 border-r-0 text-base text-white mt-1 focus:ring-primary appearance-none focus:outline-none focus:ring-0 focus:border-primary peer placeholder:text-sm"
+                    className="w-full border-b-2 bg-transparent border-gray-300 p-2 px-0 border-r-0 text-base text-white mt-1 focus:ring-green-400 appearance-none focus:outline-none focus:ring-0 focus:border-green-400 peer placeholder:text-sm"
                     placeholder="Your Email Address"
                   />
                 </div>
                 <div className="w-full mb-8 px-4">
-                  <label htmlFor="name" className="font-bold text-base text-primary relative">
+                  <label htmlFor="message" className="font-bold text-base text-green-300 relative">
                     Message
                   </label>
                   <textarea
                     name="message"
                     id="message"
-                    className="w-full border-b-2 bg-transparent border-gray-300 p-2 px-0 border-r-0 text-base text-white mt-1 focus:ring-primary appearance-none focus:outline-none focus:ring-0 focus:border-primary peer placeholder:text-sm placeholder:absolute"
-                   
+                    className="w-full border-b-2 bg-transparent border-gray-300 p-2 px-0 border-r-0 text-base text-white mt-1 focus:ring-green-400 appearance-none focus:outline-none focus:ring-0 focus:border-green-400 peer placeholder:text-sm placeholder:absolute"
+                    placeholder="Your Message"
                   ></textarea>
                 </div>
                 <div className="px-4">
                   {' '}
-                  <button id="send" className="bg-secondary w-full py-3 rounded-md text-lg font-bold hover:bg-primary hover:shadow-md hover:shadow-primary transition duration-300 ease-in-out">
+                  <button type='submit' className="bg-green-600 w-full py-3 rounded-md text-lg font-bold hover:bg-green-400 hover:shadow-md hover:shadow-green-600 transition duration-300 ease-in-out">
                     Send
                   </button>
                 </div>
@@ -74,7 +74,7 @@ export const Contact = () => {
             </div>
           </div>
           <div className="pt-20 max-w-full px-4 lg:w-1/2 flex items-center justify-center">
-              <div className=" bg-primary opacity-90 relative" data-aos="fade-up">
+              <div className=" bg-green-500 opacity-90 relative" data-aos="fade-up">
                 <h2 className="font-bold px-4 py-4 text-2xl">another information</h2>
                 {infos.map((info, index) => (
                   <div key={index} className="px-4 pb-4">
