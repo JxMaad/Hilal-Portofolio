@@ -33,6 +33,9 @@ export const About: React.FC<AboutProps> = ({ id }) => {
                             <a href="./CV_Hilal_Ahmad_Mujaddid.pdf" download>
                                 <button className="border px-5 py-2 my-5 hover:bg-green-300 transition duration-300 ease-in-out text-lg">Download CV</button>
                             </a>
+                            <a href="https://drive.google.com/drive/folders/13xpk3KP5ScGcw-rUVah70OM8iQKtBKcw?usp=sharing" target="_blank">
+                                <button className="border ml-10 px-8 py-2 my-5 hover:bg-green-300 transition duration-300 ease-in-out text-lg">Certificate</button>
+                            </a>
                         </div>
                         <div className="w-full lg:w-1/2 flex md:justify-normal justify-center my-9 lg:my-0 relative">
                             <div className="absolute max-w-full px-2 bg-green-400 shadow left-2 z-10 top-2 rounded-md flex h-7 items-center justify-center font-medium" data-aos="fade-up">

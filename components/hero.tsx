@@ -25,7 +25,7 @@ export const Hero : React.FC<HeroProps>= ({id}) => {
             </h1>
             <h2 className="text-xl font-extrabold mb-10 md:text-4xl lg:text-7xl lg:mb-12 text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-blue-400 to-green-200" data-aos="fade-right" >
               Junior <span className="font-bold lg:block text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-blue-500 to-green-200" data-aos="fade-right">Web Developer</span>
-              <span className="text-green-400 font-bold lg:block" data-aos="fade-right"> & UI Designer</span>
+              <span className="text-green-400 font-bold lg:block" data-aos="fade-right"> & Student</span>
             </h2>
             <Link data-aos="fade-right" href="#about"className="lg:border-4 border-2 rounded-tr-xl rounded-bl-xl font-semibold text-primary text-lg border-primary px-8 py-3 lg:text-2xl hover:bg-secondary transition duration-300 ease-out hover:text-white">
               About Me
