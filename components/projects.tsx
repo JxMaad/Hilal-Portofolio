@@ -80,7 +80,7 @@ export const Project = () => {
                 </div>
               </div>
               <div className="my-4 mx-3 mb-7">
-                <a href="https://hafidz-movie-list.vercel.app/" target="_blank" className="px-7 py-3 bg-green-400 font-medium text-lg rounded-md hover:bg-green-600">
+                <a href="#" className="px-7 py-3 bg-green-400 font-medium text-lg rounded-md hover:bg-green-600">
                   Lihat
                 </a>
               </div>
