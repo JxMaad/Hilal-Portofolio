@@ -9,7 +9,7 @@ import { Particles } from './particles';
 export const Hero : React.FC<HeroProps>= ({id}) => {
   
   return (
-    <section  className="pt-16 pb-20">
+    <section  className="pt-10 pb-20">
       <Particles className='absolute inset-0 -z-10'/>
       <div className="container">
         <div className="flex flex-wrap">
