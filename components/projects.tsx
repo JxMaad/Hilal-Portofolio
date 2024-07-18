@@ -55,7 +55,7 @@ export const Project = () => {
                 <div className="py-3 max-w-16 grayscale hover:grayscale-0 transition duration-300 ease-in-out">
                   <img src="./logo-css-removebg-preview.png" alt="css" />
                 </div>
-                <div className="py-3 max-w-16 grayscale hover:grayscale-0 transition duration-300 ease-in-out">
+                <div className="py-4 max-w-16 grayscale hover:grayscale-0 transition duration-300 ease-in-out">
                   <img src="./Unofficial_JavaScript_logo_2.svg.png" alt="js" />
                 </div>
               </div>
@@ -69,8 +69,8 @@ export const Project = () => {
               <div className="rounded-md overflow-hidden ">
                 <img src="./Myportofolio.png" className="h-full" alt="foto-kelas" width="w-full" />
               </div>
-              <h3 className="font-bold mb-3 mt-6 text-2xl px-2">My Portofolio </h3>
-              <p className="font-extralight leading-relaxed tracking-[2px] px-2">This project is made to display data about my data in a portfolio. This project also helps me in finding a job or internship.</p>
+              <h3 className="font-bold mb-3 mt-16 text-2xl px-2">My Portofolio </h3>
+              <p className="font-extralight leading-relaxed tracking-[2px] px-2">This project is made to show about my data in a portfolio. This project also helps me in finding a job or internship.</p>
               <div className="flex gap-x-2 px-2">
                 <div className="py-4 max-w-16 grayscale hover:grayscale-0 transition duration-300 ease-in-out">
                   <img src="./React-icon.svg.png" alt="react" />
@@ -81,6 +81,26 @@ export const Project = () => {
               </div>
               <div className="my-4 mx-3 mb-7">
                 <a href="https://hafidz-movie-list.vercel.app/" target="_blank" className="px-7 py-3 bg-green-400 font-medium text-lg rounded-md hover:bg-green-600">
+                  Lihat
+                </a>
+              </div>
+            </div>
+            <div className="mb-12 lg:w-1/3 border border-green-400 shadow-green-600 rounded-md shadow" data-aos="fade-up" data-aos-duration="1000">
+              <div className="rounded-md overflow-hidden ">
+                <img src="./trafficlights.png" className="h-full" alt="foto-kelas" width="w-full" />
+              </div>
+              <h3 className="font-bold mb-3 mt-6 text-2xl px-2">My project arduino Traffic Lights </h3>
+              <p className="font-extralight leading-relaxed tracking-[2px] px-2">This project was created to learn about the traffic light system. This project also helped me to learn how the traffic light works to match the real one, for example I made a traffic light at a T-junction.</p>
+              <div className="flex gap-x-2 px-2">
+                <div className="py-4 max-w-16 grayscale hover:grayscale-0 transition duration-300 ease-in-out">
+                  <img src="./logo-c++-removebg-preview.png" alt="c++" />
+                </div>
+                <div className="py-3 max-w-20 grayscale hover:grayscale-0 transition duration-300 ease-in-out">
+                  <img src="./arduino-logo-removebg-preview.png" alt="arduino" />
+                </div>
+              </div>
+              <div className="my-4 mx-3 mb-7">
+                <a href="https://www.tinkercad.com/things/caj06V8LGUO-smooth-blorr-crift?sharecode=DAjK9ryFf9Nfu6HUl9j5kWFV5y7DioWd3OdZe2r4FeI" target="_blank" className="px-7 py-3 bg-green-400 font-medium text-lg rounded-md hover:bg-green-600">
                   Lihat
                 </a>
               </div>
