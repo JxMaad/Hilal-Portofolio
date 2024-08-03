@@ -73,7 +73,7 @@ export const Project = () => {
               <p className="font-extralight leading-relaxed tracking-[2px] px-2">This project is made to show about my data in a portfolio. This project also helps me in finding a job or internship.</p>
               <div className="flex gap-x-2 px-2">
                 <div className="py-4 max-w-16 grayscale hover:grayscale-0 transition duration-300 ease-in-out">
-                  <img src="./React-icon.svg.png" alt="react" />
+                  <img src="./iduLChSb1a.jpeg" alt="nextjs" />
                 </div>
                 <div className="py-3 max-w-16 grayscale hover:grayscale-0 transition duration-300 ease-in-out">
                   <img src="./tailwind.svg" alt="tailwind" />
